@@ -1,8 +1,8 @@
 #include "injector.h"
 
 #include <TlHelp32.h>
-#include <atlstr.h>
 #include <iostream>
+#include <tchar.h>
 
 #include "gconst.h"
 
