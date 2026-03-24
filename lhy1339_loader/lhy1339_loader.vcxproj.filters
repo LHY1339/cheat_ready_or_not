@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{aa8db24e-e09d-4b16-bb9c-6c48bb188e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\loader">
+      <UniqueIdentifier>{48beedc1-99df-4824-a8bd-20e16b915d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\global">
+      <UniqueIdentifier>{f431ce3e-8480-4b18-8f27-f0954ae588dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="loader.cpp">
+      <Filter>source\loader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="loader.h">
+      <Filter>source\loader</Filter>
+    </ClInclude>
+    <ClInclude Include="gdefine.h">
+      <Filter>source\global</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="lhy1339_loader.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\cheat.dll">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\icon.ico">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

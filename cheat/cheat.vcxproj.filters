@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source\cheat">
+      <UniqueIdentifier>{171cda98-58ef-43e9-87dd-64c25efd331e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\module">
+      <UniqueIdentifier>{f74fde0a-8e6e-4e4d-a1a3-7566f4852470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\global">
+      <UniqueIdentifier>{4ad798eb-8706-4c20-8869-47ed8edc5a33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{4a44e34d-2481-42c7-b7ec-330528f744c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\sdk">
+      <UniqueIdentifier>{aa849abe-a823-48c1-abc8-80a292579781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\minhook">
+      <UniqueIdentifier>{bf168011-0e74-489d-befd-58a0b3844670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\module\kismet">
+      <UniqueIdentifier>{e8ff02d7-0307-4dca-9627-82c73adb4091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\module\gui">
+      <UniqueIdentifier>{0d1e4c8a-25ce-469f-9fb5-97b49becb8b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\module\render">
+      <UniqueIdentifier>{d4f0ef57-7b0c-4eb8-bd43-23d121d5441e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\module\menu">
+      <UniqueIdentifier>{8e43c3a0-7a5d-49f4-83a5-25355bbb4543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\module\color">
+      <UniqueIdentifier>{46ad0460-b87d-44fd-b468-b58a7a38b5f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\module\input">
+      <UniqueIdentifier>{d5f79aab-da9d-4980-b471-b28bdb28ec18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\module\network">
+      <UniqueIdentifier>{4a301b2a-9489-4754-86fb-626a76ad5b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\module\save">
+      <UniqueIdentifier>{3b9e4172-9c23-480d-b451-90491dffb5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\cheat\cheat_mod">
+      <UniqueIdentifier>{f27d1438-5214-467f-abb7-1ef83e337128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\module\menu\menu_mod">
+      <UniqueIdentifier>{b35c7a0c-42cd-4628-9bc3-338265bac98b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\module\menu\menu_lib">
+      <UniqueIdentifier>{ff3dbcda-bae2-495d-8f7d-8223fc99ead5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\module\esp">
+      <UniqueIdentifier>{0b45e02e-f24a-49ee-b92c-12329836890b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\module\visual">
+      <UniqueIdentifier>{8ae1ed28-f8be-46c4-b5a6-4f639e22a58e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\module\aim">
+      <UniqueIdentifier>{8e344e60-e85a-4291-828a-16214d7efa76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\module\player">
+      <UniqueIdentifier>{71477b47-7740-40d3-894f-ca1ae8aa9da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\module\manager">
+      <UniqueIdentifier>{1bce66f0-0ed3-4e55-a09a-23e2433ec2f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dll_main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat.cpp">
+      <Filter>source\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\SDK\Engine_functions.cpp">
+      <Filter>third_party\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\SDK\CoreUObject_functions.cpp">
+      <Filter>third_party\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\SDK\Basic.cpp">
+      <Filter>third_party\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\buffer.c">
+      <Filter>third_party\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hde\hde32.c">
+      <Filter>third_party\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hde\hde64.c">
+      <Filter>third_party\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hook.c">
+      <Filter>third_party\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\trampoline.c">
+      <Filter>third_party\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="kismet.cpp">
+      <Filter>source\module\kismet</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>source\module\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>source\module\render</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>source\module\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="color.cpp">
+      <Filter>source\module\color</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>source\module\input</Filter>
+    </ClCompile>
+    <ClCompile Include="network.cpp">
+      <Filter>source\module\network</Filter>
+    </ClCompile>
+    <ClCompile Include="save.cpp">
+      <Filter>source\module\save</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat_hook.cpp">
+      <Filter>source\cheat\cheat_mod</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat_init.cpp">
+      <Filter>source\cheat\cheat_mod</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat_exit.cpp">
+      <Filter>source\cheat\cheat_mod</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_aim.cpp">
+      <Filter>source\module\menu\menu_mod</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_config.cpp">
+      <Filter>source\module\menu\menu_mod</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_level.cpp">
+      <Filter>source\module\menu\menu_mod</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_misc.cpp">
+      <Filter>source\module\menu\menu_mod</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_player.cpp">
+      <Filter>source\module\menu\menu_mod</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_visual.cpp">
+      <Filter>source\module\menu\menu_mod</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_lib.cpp">
+      <Filter>source\module\menu\menu_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_esp.cpp">
+      <Filter>source\module\menu\menu_mod</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat_save.cpp">
+      <Filter>source\cheat\cheat_mod</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>source\module\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="visual.cpp">
+      <Filter>source\module\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="aim.cpp">
+      <Filter>source\module\aim</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\SDK\BasePlayer_functions.cpp">
+      <Filter>third_party\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\SDK\ReadyOrNot_functions.cpp">
+      <Filter>third_party\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>source\module\player</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>source\module\manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cheat.h">
+      <Filter>source\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="gvalue.h">
+      <Filter>source\global</Filter>
+    </ClInclude>
+    <ClInclude Include="gdefine.h">
+      <Filter>source\global</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\buffer.h">
+      <Filter>third_party\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\hde32.h">
+      <Filter>third_party\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\hde64.h">
+      <Filter>third_party\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\pstdint.h">
+      <Filter>third_party\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\table32.h">
+      <Filter>third_party\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\table64.h">
+      <Filter>third_party\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\trampoline.h">
+      <Filter>third_party\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="kismet.h">
+      <Filter>source\module\kismet</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>source\module\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>source\module\render</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>source\module\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>source\module\color</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>source\module\input</Filter>
+    </ClInclude>
+    <ClInclude Include="network.h">
+      <Filter>source\module\network</Filter>
+    </ClInclude>
+    <ClInclude Include="save.h">
+      <Filter>source\module\save</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat_mod.h">
+      <Filter>source\cheat\cheat_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_mod.h">
+      <Filter>source\module\menu\menu_mod</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_lib.h">
+      <Filter>source\module\menu\menu_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>source\module\esp</Filter>
+    </ClInclude>
+    <ClInclude Include="visual.h">
+      <Filter>source\module\visual</Filter>
+    </ClInclude>
+    <ClInclude Include="aim.h">
+      <Filter>source\module\aim</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>source\module\player</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>source\module\manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
